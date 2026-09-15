@@ -1,0 +1,15 @@
+{
+  "id": "zea-sea-battle",
+  "title": "Zea Sea Battle",
+  "description": "《渡海入林》海战棋：内嵌裁决内核 0.3.8 的 FVTT v12 开发测试模块。尚未通过服务器隔离与多客户端验收，请勿用于正式战局。",
+  "version": "0.1.0-dev.9",
+  "url": "https://github.com/litchicalpis/zea-sea-battle",
+  "manifest": "https://raw.githubusercontent.com/litchicalpis/zea-sea-battle/main/module.json",
+  "download": "https://github.com/litchicalpis/zea-sea-battle/releases/download/v0.1.0-dev.9/zea-sea-battle-0.1.0-dev.9.zip",
+  "authors": [{"name": "Zea Team"}],
+  "compatibility": {"minimum": "12", "verified": "12", "maximum": "12"},
+  "esmodules": ["scripts/fvtt/main.js"],
+  "styles": ["styles/zea-sea-battle.css"],
+  "languages": [{"lang": "zh-CN", "name": "简体中文", "path": "lang/zh-CN.json"}],
+  "socket": true
+}
