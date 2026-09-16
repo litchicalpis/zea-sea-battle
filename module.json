@@ -1,15 +1,18 @@
 {
   "id": "zea-sea-battle",
   "title": "Zea Sea Battle",
-  "description": "《渡海入林》海战棋：HTTP 兼容，内核 0.3.10，44 项特性已编译。FVTT v12 开发测试版，真实服务器验收待完成，旧局不自动迁移。",
-  "version": "0.1.0-dev.11",
+  "description": "《渡海入林》海战棋：HTTP 兼容，内核 0.3.10，44 项特性已编译。修复 v12 入口、翻译与保存适配；Journal 完整状态读取隔离未通过，仅限可公开虚构数据，旧局不自动迁移。",
+  "version": "0.1.0-dev.11.1",
   "authors": [{"name": "Zea Team"}],
   "compatibility": {"minimum": "12", "verified": "12", "maximum": "12"},
   "esmodules": ["scripts/fvtt/main.js"],
   "styles": ["styles/zea-sea-battle.css"],
-  "languages": [{"lang": "zh-CN", "name": "简体中文", "path": "lang/zh-CN.json"}],
+  "languages": [
+    {"lang": "en", "name": "English (Chinese fallback)", "path": "lang/zh-CN.json"},
+    {"lang": "zh-CN", "name": "简体中文", "path": "lang/zh-CN.json"}
+  ],
   "socket": true,
   "url": "https://github.com/litchicalpis/zea-sea-battle",
   "manifest": "https://raw.githubusercontent.com/litchicalpis/zea-sea-battle/main/module.json",
-  "download": "https://github.com/litchicalpis/zea-sea-battle/releases/download/v0.1.0-dev.11/zea-sea-battle-0.1.0-dev.11.zip"
+  "download": "https://github.com/litchicalpis/zea-sea-battle/releases/download/v0.1.0-dev.11.1/zea-sea-battle-0.1.0-dev.11.1.zip"
 }
