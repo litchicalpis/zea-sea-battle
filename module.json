@@ -2,7 +2,7 @@
   "id": "zea-sea-battle",
   "title": "Zea Sea Battle",
   "description": "《渡海入林》海战棋：固定 GM，P2 默认视图，双方独立部署，Journal 密文与 GM 浏览器密钥。兼容 HTTP / FVTT v12；仍限独立测试 World，旧明文需备份后手动迁移。",
-  "version": "0.1.0-dev.12",
+  "version": "0.1.0-dev.12.2",
   "authors": [{"name": "Zea Team"}],
   "compatibility": {"minimum": "12", "verified": "12", "maximum": "12"},
   "esmodules": ["scripts/fvtt/main.js"],
@@ -14,5 +14,5 @@
   "socket": true,
   "url": "https://github.com/litchicalpis/zea-sea-battle",
   "manifest": "https://raw.githubusercontent.com/litchicalpis/zea-sea-battle/main/module.json",
-  "download": "https://github.com/litchicalpis/zea-sea-battle/releases/download/v0.1.0-dev.12/zea-sea-battle-0.1.0-dev.12.zip"
+  "download": "https://github.com/litchicalpis/zea-sea-battle/releases/download/v0.1.0-dev.12.2/zea-sea-battle-0.1.0-dev.12.2.zip"
 }
